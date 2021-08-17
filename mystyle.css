@@ -47,7 +47,7 @@ a:hover {
   padding-left: 5px;
   background-color: #E3EDD8;
   width: 99%;
-  height: auto;
+  height: calc(100vh - 100px);
   display: flex;
   flex-wrap: wrap;
 }
@@ -62,6 +62,14 @@ a:hover {
   height: 40px;
   position: relative;
   clear: both;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border-radius: 500px;
+  background-color: #E3EDD8;
+  border: none;
 }
 
 h3 {
